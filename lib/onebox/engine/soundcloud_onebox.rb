@@ -8,7 +8,7 @@ module Onebox
       always_https
 
       def to_html
-        oembed_data[:html].gsub('visual=true', 'visual=false')
+        oembed_data[:html]
       end
 
       def placeholder_html
